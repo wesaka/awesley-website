@@ -1,0 +1,166 @@
+{
+  "main": {
+    "name": "Alvacir Wesley Kalatai Alberti",
+    "occupation": "Student, Web and Mobile Developer and aspiring Data Scientist",
+    "description": "Something Somehting",
+    "image": "profilepic.jpg",
+    "bio": "Born and raised in the heartland of the Brazilian state Paraná, I grew up amongst the nature, climbing trees, riding horses up and down cliffs, walking and biking in the woods and playing games in the dirt with my friends. I discovered my passion for coding and technology as soon as I moved to the capital of the state, Curitiba, when I just fell in love with coding and technology in general, but this didn't mean I forgot about my roots, my drive is knowledge and my goal is to ultimately learn new and exciting ways to implement new and cutting edge technologies in agriculture and livestock husbandry, one step at a time.",
+    "contactmessage": "I love challenges, I believe that is through challenges that you really learn new things, if you have a challenge for me or would like to know me better, chat a little maybe, please get in touch!",
+    "email": "kalatai.alberti@gmail.com",
+    "phone": "+55 (42) 99127 4009",
+    "city": "Curitiba",
+    "state": "Paraná",
+    "country": "Brazil",
+    "website": "",
+    "resumedownload": "",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/wesley.kalatai",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/alvacir-wesley-kalatai-alberti-228177174/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/wesaka/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/wesaka",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "The things I love to do:",
+    "education": [
+      {
+        "school": "Universidade Estadual de Ponta Grossa - UEPG",
+        "degree": "Agronomia (Agronomy)",
+        "graduated": "January 2014 - June 2015",
+        "description": "This was my first step into pursuing my lifelong dream of working with the earth, unfortunately, it wasn't what I expected. Professors still were teaching the way they had for more than decades and new technology wasn't brought up at all. That wasn't what I envisioned for my future, so I started to search for better opportunities."
+      },
+      {
+        "school": "Pontifícia Universidade Católica do Paraná - PUCPR",
+        "degree": "Engenharia de Controle e Automação (Control and Automation Engineering)",
+        "graduated": "March 2016 - December 2019",
+        "description": "I was able to clearly see where I wanted to go after I started to work with software development. My boss at the time had graduated in this course some years prior and he was my main incentive to pursue this career. Here I started to get a real grasp of what coding really meant, I learnt how to code embedded systems, design circuit boards, robotics, industrial automation, internet of things, artificial intelligence and so much more. But about three years in the course, I still felt that this wasn't enough, I wanted to get deeper in the programming scene as I wasn't much fond of the engineering stuff, so through PUCPR I found the path that I am pursuing today."
+      },
+      {
+        "school": "Kent State University",
+        "degree": "Computer Science with Embedded Systems and Robotics concentrations",
+        "graduated": "July 2018 - Ongoing",
+        "description": "This was possible through a pioneer program that PUCPR started to offer in Brazil in 2018 called \"American Academy,\" that alongside KSU, offered the full American experience while still in Brazil, with all the classes and professors we would have in America, and after the two initial years, finish off the degree in the United States. This was the perfect opportunity to, as I wanted, get deeper in the computer science area."
+      }
+    ],
+    "work": [
+      {
+        "company": "BTCC Conexão Cliente",
+        "title": "Phone Representative",
+        "years": "July 2015 - December 2015",
+        "description": "This was my go at sales. As soon as I moved in to Curitiba, I got a job at BTCC selling their services through the phone. I managed to get the top marks consumer care and was acknowledged by my supervisors as the best representative in my time for the time I was there. Although I liked the experience of getting in touch in customers, talking to them, offering our services and listening to what they had to say, the work I did wasn't exciting and I didn't had the opportunity to learn anything new there, so after a short stay I quit."
+      },
+      {
+        "company": "UnderControl Software",
+        "title": "Lead Android Developer",
+        "years": "January 2016 - July 2018",
+        "description": "Here I got my first taste for coding. I entered the company as the errands boy, getting computer parts and picking up faulty equipment from our clients. After some time, my boos let me experiment with fixing computers, it was better, but not really what I wanted to do there. My boss surprised me one day, when out of the blue, he asked me if I could code something for him to see what I had learnt in college up until then. Apparently, he was pleased with the simple command line application I made and asked me to make a simple app in C#, using Windows Forms (which I knew nothing about), after a week or so, I managed to struggle my way into finishing it and as happened with the previous project, he was pleased and wanted more, and then, from that day forward, my thirst for learning how to code everything just grew and grew."
+      }
+    ],
+    "skills": [
+      {
+        "name": "C#",
+        "level": "85%"
+      },
+      {
+        "name": "Python",
+        "level": "85%"
+      },
+      {
+        "name": "Java",
+        "level": "80%"
+      },
+      {
+        "name": "Android",
+        "level": "90%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "85%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "80%"
+      },
+      {
+        "name": "CSS",
+        "level": "70%"
+      },
+      {
+        "name": "SASS",
+        "level": "40%"
+      },
+      {
+        "name": "HTML5",
+        "level": "80%"
+      },
+      {
+        "name": "MongoDB",
+        "level": "50%"
+      },
+      {
+        "name": "SQL",
+        "level": "70%"
+      },
+      {
+        "name": "Git",
+        "level": "80%"
+      },
+      {
+        "name": "Linux",
+        "level": "90%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "CRWN Store",
+        "category": "A e-commerce website I made to hone my React skills.",
+        "image": "crwnstore.png",
+        "url": "https://crwn-live-wes.herokuapp.com/"
+      },
+      {
+        "title": "Caramel Camel Coffee",
+        "category": "A e-commerce website I started to learn more about APIs, web development and running a small business.",
+        "image": "caramelcamelcoffee.png",
+        "url": "https://caramelcamelcoffee.com/"
+      },
+      {
+        "title": "UCMobile",
+        "category": "An Android app I created while working in UnderControl. It's used for taking orders in restaurants with a smartphone.",
+        "image": "ucmobile.png",
+        "url": "https://play.google.com/store/apps/details?id=br.com.undercontrolsoftware.ucmobile&hl=en_US"
+      },
+      {
+        "title": "UN Relatórios",
+        "category": "An Android companion app to the ERP developed by UnderControl. It's used for visualization of data on the go.",
+        "image": "unrelatorios.png",
+        "url": "https://play.google.com/store/apps/details?id=br.com.undercontrolsoftware.relatorios&hl=en_US"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "It was a pleasure working with Wesley for more than two years. He surprised me more times than I can count.",
+        "user": "Kauem Fuchs - Owner of UnderControl Software"
+      }
+    ]
+  }
+}
