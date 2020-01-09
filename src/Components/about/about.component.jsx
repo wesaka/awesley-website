@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import { ReactComponent as BraziFlag } from '../../assets/brazil.svg';
+import resume from '../../assets/Alvacir_Wesley_Kalatai_Alberti_Resume.PDF';
 
 class AboutComponent extends Component {
     render() {
-
-        let name, bio, city, state, country, phone, email, resumeDownload;
+        let name, bio, city, state, country, phone, email, resumedownload;
         if (this.props.data) {
-            ({name, bio, city, state, country, phone, email, resumeDownload} = this.props.data);
+            ({name, bio, city, state, country, phone, email, resumedownload} = this.props.data);
         }
 
         return (
@@ -32,7 +32,7 @@ class AboutComponent extends Component {
                             </div>
                             <div className="columns download">
                                 <p>
-                                    <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download
+                                    <a href={resume} download={resumedownload} className="button"><i className="fa fa-download"></i>Download
                                         Resume</a>
                                 </p>
                             </div>

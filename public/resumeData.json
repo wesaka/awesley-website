@@ -11,8 +11,8 @@
     "city": "Curitiba",
     "state": "Paraná",
     "country": "Brazil",
-    "website": "",
-    "resumedownload": "",
+    "website": "https://www.awesley.com.br",
+    "resumedownload": "Alvacir_Wesley_Kalatai_Alberti_Resume.PDF",
     "social": [
       {
         "name": "facebook",
@@ -21,7 +21,7 @@
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/alvacir-wesley-kalatai-alberti-228177174/",
+        "url": "www.linkedin.com/in/wesaka",
         "className": "fa fa-linkedin"
       },
       {
@@ -40,10 +40,10 @@
     "skillmessage": "The things I love to do:",
     "education": [
       {
-        "school": "Universidade Estadual de Ponta Grossa - UEPG",
-        "degree": "Agronomia (Agronomy)",
-        "graduated": "January 2014 - June 2015",
-        "description": "This was my first step into pursuing my lifelong dream of working with the earth, unfortunately, it wasn't what I expected. Professors still were teaching the way they had for more than decades and new technology wasn't brought up at all. That wasn't what I envisioned for my future, so I started to search for better opportunities."
+        "school": "Kent State University",
+        "degree": "Computer Science with Embedded Systems & Robotics and Data Engineering concentrations",
+        "graduated": "July 2018 - Ongoing",
+        "description": "This was possible through a pioneer program that PUCPR started to offer in Brazil in 2018 called \"American Academy,\" that alongside KSU, offered the full American experience while still in Brazil, with all the classes and professors we would have in America, and after the two initial years, finish off the degree in the United States. This was the perfect opportunity to, as I wanted, get deeper in the computer science area."
       },
       {
         "school": "Pontifícia Universidade Católica do Paraná - PUCPR",
@@ -52,24 +52,24 @@
         "description": "I was able to clearly see where I wanted to go after I started to work with software development. My boss at the time had graduated in this course some years prior and he was my main incentive to pursue this career. Here I started to get a real grasp of what coding really meant, I learnt how to code embedded systems, design circuit boards, robotics, industrial automation, internet of things, artificial intelligence and so much more. But about three years in the course, I still felt that this wasn't enough, I wanted to get deeper in the programming scene as I wasn't much fond of the engineering stuff, so through PUCPR I found the path that I am pursuing today."
       },
       {
-        "school": "Kent State University",
-        "degree": "Computer Science with Embedded Systems and Robotics concentrations",
-        "graduated": "July 2018 - Ongoing",
-        "description": "This was possible through a pioneer program that PUCPR started to offer in Brazil in 2018 called \"American Academy,\" that alongside KSU, offered the full American experience while still in Brazil, with all the classes and professors we would have in America, and after the two initial years, finish off the degree in the United States. This was the perfect opportunity to, as I wanted, get deeper in the computer science area."
+        "school": "Universidade Estadual de Ponta Grossa - UEPG",
+        "degree": "Agronomia (Agronomy)",
+        "graduated": "January 2014 - June 2015",
+        "description": "This was my first step into pursuing my lifelong dream of working with the earth, unfortunately, it wasn't what I expected. Professors still were teaching the way they had for more than decades and new technology wasn't brought up at all. That wasn't what I envisioned for my future, so I started to search for better opportunities."
       }
     ],
     "work": [
-      {
-        "company": "BTCC Conexão Cliente",
-        "title": "Phone Representative",
-        "years": "July 2015 - December 2015",
-        "description": "This was my go at sales. As soon as I moved in to Curitiba, I got a job at BTCC selling their services through the phone. I managed to get the top marks consumer care and was acknowledged by my supervisors as the best representative in my time for the time I was there. Although I liked the experience of getting in touch in customers, talking to them, offering our services and listening to what they had to say, the work I did wasn't exciting and I didn't had the opportunity to learn anything new there, so after a short stay I quit."
-      },
       {
         "company": "UnderControl Software",
         "title": "Lead Android Developer",
         "years": "January 2016 - July 2018",
         "description": "Here I got my first taste for coding. I entered the company as the errands boy, getting computer parts and picking up faulty equipment from our clients. After some time, my boos let me experiment with fixing computers, it was better, but not really what I wanted to do there. My boss surprised me one day, when out of the blue, he asked me if I could code something for him to see what I had learnt in college up until then. Apparently, he was pleased with the simple command line application I made and asked me to make a simple app in C#, using Windows Forms (which I knew nothing about), after a week or so, I managed to struggle my way into finishing it and as happened with the previous project, he was pleased and wanted more, and then, from that day forward, my thirst for learning how to code everything just grew and grew."
+      },
+      {
+        "company": "BTCC Conexão Cliente",
+        "title": "Phone Representative",
+        "years": "July 2015 - December 2015",
+        "description": "This was my go at sales. As soon as I moved in to Curitiba, I got a job at BTCC selling their services through the phone. I managed to get the top marks consumer care and was acknowledged by my supervisors as the best representative in my time for the time I was there. Although I liked the experience of getting in touch in customers, talking to them, offering our services and listening to what they had to say, the work I did wasn't exciting and I didn't had the opportunity to learn anything new there, so after a short stay I quit."
       }
     ],
     "skills": [
@@ -163,6 +163,12 @@
         "category": "An Android companion app to the ERP developed by UnderControl. It's used for visualization of data on the go.",
         "image": "unrelatorios.png",
         "url": "https://play.google.com/store/apps/details?id=br.com.undercontrolsoftware.relatorios&hl=en_US"
+      },
+      {
+        "title": "More",
+        "category": "Check out my Github for more projects.",
+        "image": "threedots.png",
+        "url": "https://github.com/wesaka"
       }
     ]
   },
