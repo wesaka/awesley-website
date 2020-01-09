@@ -3,8 +3,8 @@ import { ReactComponent as BrazilFlag } from '../../assets/brazil.svg'
 import {getTelegramChatId, getTelegramKey} from "../../firebase/firebase.utils";
 
 class ContactComponent extends Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
             showingContactForm: true,
             showingImageLoader: false,
@@ -37,8 +37,6 @@ class ContactComponent extends Component {
 
             if (!this.contactName.value || !this.contactEmail.value || !this.contactMessage.value || !validateEmail(this.contactEmail.value))
                 return;
-
-
 
             this.setState({showingImageLoader: true});
 
