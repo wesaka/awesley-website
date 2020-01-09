@@ -137,9 +137,20 @@
       },
       {
         "title": "Caramel Camel Coffee",
-        "category": "A e-commerce website I started to learn more about APIs, web development and running a small business.",
+        "category": "An e-commerce website I started to learn more about APIs, web development and management.",
         "image": "caramelcamelcoffee.png",
         "url": "https://caramelcamelcoffee.com/"
+      },
+      {
+        "title": "Natours",
+        "category": "*Ongoing project* - I chose to focus heavily in CSS in this one, to improve my design skills.",
+        "image": "natours.png",
+        "url": "https://github.com/wesaka/natours"
+      },
+      {
+        "title": "UN Admin Web",
+        "category": "*Ongoing project* - Commissioned by the company I used to work on.",
+        "image": "unweb.png"
       },
       {
         "title": "UCMobile",
