@@ -4,9 +4,9 @@ import { ReactComponent as BraziFlag } from '../../assets/brazil.svg';
 class AboutComponent extends Component {
     render() {
 
-        let name, profilePicture, bio, city, state, country, phone, email, resumeDownload;
+        let name, bio, city, state, country, phone, email, resumeDownload;
         if (this.props.data) {
-            ({name, profilePicture, bio, city, state, country, phone, email, resumeDownload} = this.props.data);
+            ({name, bio, city, state, country, phone, email, resumeDownload} = this.props.data);
         }
 
         return (

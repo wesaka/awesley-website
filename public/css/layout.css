@@ -1046,7 +1046,6 @@ call-to-action .button {
     color: #eee;
     background: #373233;
     margin-bottom: 42px;
-    border: 0;
     outline: none;
     font-size: 15px;
     line-height: 24px;
@@ -1084,7 +1083,7 @@ call-to-action .button {
 }
 
 #message-warning, #message-success {
-    display: none;
+    display: block;
     background: #0F0F0F;
     padding: 24px 24px;
     margin-bottom: 36px;
@@ -1106,12 +1105,33 @@ call-to-action .button {
 }
 
 #image-loader {
-    display: none;
+    display: inline;
     position: relative;
     left: 18px;
     top: 17px;
 }
 
+.shown {
+    display: inline;
+    opacity: 1;
+    transition: all 250ms linear;
+}
+
+.hidden {
+    display: none;
+    opacity: 0;
+    transition: all 250ms linear;
+}
+
+.showAlert {
+    border: red 2px solid;
+    transition: all 250ms linear
+}
+
+.hideAlert {
+    border: 0;
+    transition: all 250ms linear
+}
 
 /* Twitter Feed */
 #twitter {
