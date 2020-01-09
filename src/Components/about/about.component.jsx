@@ -1,8 +1,10 @@
 import React, {Component} from 'react';
 import { ReactComponent as BraziFlag } from '../../assets/brazil.svg';
+import { downloadFile } from "../../download-helper/download-helper";
 
 class AboutComponent extends Component {
     render() {
+
         let name, bio, city, state, country, phone, email, resumedownload;
         if (this.props.data) {
             ({name, bio, city, state, country, phone, email, resumedownload} = this.props.data);
@@ -31,8 +33,8 @@ class AboutComponent extends Component {
                             </div>
                             <div className="columns download">
                                 <p>
-                                    <a href={`${process.env.PUBLIC_URL}/${resumedownload}` } download={resumedownload} className="button"><i className="fa fa-download"></i>Download
-                                        Resume</a>
+                                    <div onClick={() => downloadFile(`${process.env.PUBLIC_URL}/${resumedownload}`)} className="button"><i className="fa fa-download"></i>Download
+                                        Resume</div>
                                 </p>
                             </div>
                         </div>
