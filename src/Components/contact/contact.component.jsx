@@ -13,7 +13,9 @@ class ContactComponent extends Component {
             alertName: false,
             alertEmail: false,
             alertMessage: false
-        }
+        };
+
+        console.log(this.state);
     }
 
     render() {
