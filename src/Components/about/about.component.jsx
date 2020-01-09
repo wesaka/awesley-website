@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import { ReactComponent as BraziFlag } from '../../assets/brazil.svg';
-import resume from '../../assets/Alvacir_Wesley_Kalatai_Alberti_Resume.PDF';
 
 class AboutComponent extends Component {
     render() {
@@ -32,7 +31,7 @@ class AboutComponent extends Component {
                             </div>
                             <div className="columns download">
                                 <p>
-                                    <a href={resume} download={resumedownload} className="button"><i className="fa fa-download"></i>Download
+                                    <a href={`${process.env.PUBLIC_URL}/${resumedownload}` } download={resumedownload} className="button"><i className="fa fa-download"></i>Download
                                         Resume</a>
                                 </p>
                             </div>
