@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import { ReactComponent as BrazilFlag } from '../../assets/brazil.svg'
-import {getTelegramChatId, getTelegramKey} from "../../firebase/firebase.utils";
 
 class ContactComponent extends Component {
     constructor(props) {
@@ -41,8 +40,8 @@ class ContactComponent extends Component {
             this.setState({showingImageLoader: true});
 
             const { TelegramClient } = require('messaging-api-telegram');
-            const client = TelegramClient.connect(await getTelegramKey());
-            const sentMessage = await client.sendMessage( await getTelegramChatId(), `Name: ${this.contactName.value}\nEmail: ${this.contactEmail.value}\nSubject: ${this.contactSubject.value}\nMessage: ${this.contactMessage.value}`);
+            const client = TelegramClient.connect(process.env.REACT_APP_T_ID);
+            const sentMessage = await client.sendMessage(process.env.REACT_APP_CHAT, `Name: ${this.contactName.value}\nEmail: ${this.contactEmail.value}\nSubject: ${this.contactSubject.value}\nMessage: ${this.contactMessage.value}`);
 
             if (sentMessage) {
                 this.setState({
