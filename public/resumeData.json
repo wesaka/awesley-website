@@ -130,8 +130,14 @@
   "portfolio": {
     "projects": [
       {
+        "title": "Compensados W.A.",
+        "category": "A website made for a local plywood industry. Made from the ground up using React and styled-components.",
+        "image": "compensadoswa.png",
+        "url": "https://www.compensadoswa.com/"
+      },
+      {
         "title": "CRWN Store",
-        "category": "A e-commerce website I made to hone my React skills.",
+        "category": "An e-commerce website I made to hone my React skills.",
         "image": "crwnstore.png",
         "url": "https://crwn-live-wes.herokuapp.com/"
       },
