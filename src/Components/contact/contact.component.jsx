@@ -40,7 +40,7 @@ class ContactComponent extends Component {
             this.setState({showingImageLoader: true});
 
             const { TelegramClient } = require('messaging-api-telegram');
-            const client = TelegramClient.connect(`${process.env.REACT_APP_T_ID}`);
+            const client = new TelegramClient({accessToken: process.env.REACT_APP_T_ID})
             const sentMessage = await client.sendMessage(`${process.env.REACT_APP_CHAT}`, `Name: ${this.contactName.value}\nEmail: ${this.contactEmail.value}\nSubject: ${this.contactSubject.value}\nMessage: ${this.contactMessage.value}`);
 
             if (sentMessage) {
