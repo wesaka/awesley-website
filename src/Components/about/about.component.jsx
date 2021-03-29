@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { ReactComponent as BraziFlag } from '../../assets/brazil.svg';
+import { ReactComponent as BrazilFlag } from '../../assets/brazil.svg';
 import { downloadFile } from "../../download-helper/download-helper";
 
 class AboutComponent extends Component {
@@ -25,7 +25,7 @@ class AboutComponent extends Component {
                                 <h2>Contact Details</h2>
                                 <p className="address">
                                     <span>{name}</span><br/>
-                                    <span>{city}, {state}, {country} <span><BraziFlag className='flag'/></span>
+                                    <span>{city}, {state}, {country} <span><BrazilFlag className='flag'/></span>
                    </span><br/>
                                     <span>{phone}</span><br/>
                                     <span>{email}</span>
