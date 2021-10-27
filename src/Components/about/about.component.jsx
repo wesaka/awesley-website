@@ -5,9 +5,9 @@ import { downloadFile } from "../../download-helper/download-helper";
 class AboutComponent extends Component {
     render() {
 
-        let name, bio, city, state, country, phone, email, resumedownload;
+        let name, bio, city, state, country, phone, phone2, email, resumedownload;
         if (this.props.data) {
-            ({name, bio, city, state, country, phone, email, resumedownload} = this.props.data);
+            ({name, bio, city, state, country, phone, phone2, email, resumedownload} = this.props.data);
         }
 
         return (
@@ -28,6 +28,7 @@ class AboutComponent extends Component {
                                     <span>{city}, {state}, {country} <span><BrazilFlag className='flag'/></span>
                    </span><br/>
                                     <span>{phone}</span><br/>
+                                    <span>{phone2}</span><br/>
                                     <span>{email}</span>
                                 </p>
                             </div>

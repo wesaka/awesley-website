@@ -58,9 +58,9 @@ class ContactComponent extends Component {
             }
         };
 
-        let name, city, state, country, phone, email, contactmessage;
+        let name, city, state, country, phone, phone2, email, contactmessage;
         if (this.props.data) {
-            ({name, city, state, country, phone, email, contactmessage} = this.props.data);
+            ({name, city, state, country, phone, phone2, email, contactmessage} = this.props.data);
         }
 
         return (
@@ -129,6 +129,8 @@ class ContactComponent extends Component {
                                 {country}<span><BrazilFlag className='flag'/></span><br/>
                                 {email}<br/>
                                 <span>{phone}</span>
+                                <br/>
+                                <span>{phone2}</span>
                             </p>
                         </div>
 
