@@ -140,13 +140,7 @@
         "title": "CRWN Store",
         "category": "An e-commerce website I made to hone my React skills.",
         "image": "crwnstore.png",
-        "url": "https://crwn-live-wes.herokuapp.com/"
-      },
-      {
-        "title": "Caramel Camel Coffee",
-        "category": "An e-commerce website I started to learn more about APIs, web development and management.",
-        "image": "caramelcamelcoffee.png",
-        "url": "https://caramelcamelcoffee.com/"
+        "url": "https://github.com/wesaka/crwn-store"
       },
       {
         "title": "Natours",
