@@ -274,7 +274,10 @@ ul#nav li.current a {
 }
 
 #about .download .button {
-    margin-top: 6px;
+    width: 80%;  /* or another suitable percentage */
+    display: block; /* to make sure the div takes up the whole width */
+    margin: 0 auto;
+    text-align: center;
     background: #444;
 }
 
@@ -1154,9 +1157,46 @@ call-to-action .button {
     border: none;
 }
 
+/* ------------------------------------------------------------------ */
+/* i. Resume Page
+/* ------------------------------------------------------------------ */
+
+.markdown-resume-container {
+    background-color: white;
+    padding: 20px;
+}
+
+/* For screen rendering */
+@media screen {
+    .markdown-resume-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .markdown-resume-container h1, .markdown-resume-container p {
+        text-align: center;
+    }
+}
+
+/* For print rendering (when exporting to PDF) */
+@media print {
+    .markdown-resume-container {
+        width: 210mm;
+        height: 297mm;
+    }
+    .markdown-resume-container h1, .markdown-resume-container p {
+        text-align: center;
+    }
+    .markdown-resume-container .resume-body {
+        text-align: left;
+    }
+}
+
 
 /* ------------------------------------------------------------------ */
-/* i. Footer
+/* j. Footer
 /* ------------------------------------------------------------------ */
 
 footer {

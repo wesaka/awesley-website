@@ -1,18 +1,18 @@
 {
   "main": {
     "name": "Alvacir Wesley Kalatai Alberti",
-    "occupation": "Student, Web and Mobile Developer and aspiring Data Scientist",
+    "occupation": "Student, Web and Mobile Developer and aspiring Software Engineer",
     "description": "As the huge tagline up there says, I love knowledge - learning new things is essential for me to live, and that's what I seek to do every day, be it on the internet, building something or observing, my life is a constant quest for learning. My passions are coding/technology and nature/biology, my ultimate goal is to be successful in the agricultural technology area.",
     "image": "profilepic.jpg",
-    "bio": "Born and raised in the heartland of the Brazilian state Paraná, I grew up amongst the nature, climbing trees, riding horses up and down cliffs, walking and biking in the woods and playing games in the dirt with my friends. I discovered my passion for coding and technology as soon as I moved to the capital of the state, Curitiba, when I just fell in love with coding and technology in general, and this made me eager to learn more, and that led me to moving to Kent, Ohio, to study Computer Science at Kent State University, but this didn't mean I forgot about my roots and what I am passionate about, my drive is knowledge and my goal is to ultimately learn new and exciting ways to implement new and cutting edge technologies in agriculture and livestock husbandry, one step at a time.",
+    "bio": "Born and raised in the heartland of the Brazilian state Paraná, I grew up surrounded by the nature, climbing trees, riding horses up and down cliffs, walking and biking in the woods and playing games in the dirt with my friends. I discovered my passion for coding and technology as soon as I moved to the capital of the state, Curitiba, when I just fell in love with coding and technology in general, and this made me eager to learn more, and that led me to moving to Kent, Ohio, to study Computer Science at Kent State University, and now, even further, as I am doing my master's in Software Engineering in the prestigious Universidad Politécnica de Madrid, but this didn't mean I forgot about my roots and what I am passionate about, my drive is knowledge and my goal is to ultimately learn new and exciting ways to implement new and cutting edge technologies in agriculture and livestock husbandry, one step at a time.",
     "contactmessage": "I love challenges, I believe that is through challenges that you can truly be motivated and effectively really learn new things, if you have a challenge for me or would like to know me better, chat a little maybe, please get in touch!",
-    "email": "kalatai.alberti@gmail.com",
-    "phone": "+55 (42) 99127 4009",
-    "phone2": "+1 (234) 817 8280",
-    "city": "Curitiba",
-    "state": "Paraná",
-    "country": "Brazil",
-    "website": "https://www.awesley.com.br",
+    "email": "wesley@aw.dev.br",
+    "phone": "+34 640 80 40 98",
+    "phone2": "+55 (42) 99127 4009",
+    "city": "Madrid",
+    "state": "C.M.",
+    "country": "Spain",
+    "website": "https://aw.dev.br",
     "resumedownload": "resume.pdf",
     "social": [
       {
@@ -26,11 +26,6 @@
         "className": "fa fa-linkedin"
       },
       {
-        "name": "instagram",
-        "url": "https://www.instagram.com/wesaka/",
-        "className": "fa fa-instagram"
-      },
-      {
         "name": "github",
         "url": "https://github.com/wesaka",
         "className": "fa fa-github"
@@ -41,9 +36,15 @@
     "skillmessage": "The things I love to do:",
     "education": [
       {
+        "school": "Universidad Politécnica de Madrid",
+        "degree": "European Master in Software Engineering",
+        "graduated": "September 2022 - Ongoing",
+        "description": "Pursuing advanced studies in Software Engineering with a focus on cutting-edge technology and research practices. This program is equipping me with in-depth knowledge and skills that are vital for a leadership role in the global tech industry."
+      },
+      {
         "school": "Kent State University",
         "degree": "Computer Science with Embedded Systems & Robotics and Data Engineering concentrations",
-        "graduated": "July 2018 - Ongoing",
+        "graduated": "July 2018 - May 2022",
         "description": "This was possible through a pioneer program that PUCPR started to offer in Brazil in 2018 called \"American Academy,\" that alongside KSU, offered the full American experience while still in Brazil, with all the classes and professors we would have in America, and after the two initial years, finish off the degree in the United States. This was the perfect opportunity to, as I wanted, get deeper in the computer science area."
       },
       {
@@ -60,6 +61,12 @@
       }
     ],
     "work": [
+      {
+        "company": "Kent State University",
+        "title": "IT Solutions Specialist",
+        "years": "August 2021 - June 2022",
+        "description": "Working in a dynamic IT support environment, I was a key part of a team tasked with attending to Kent State's faculty IT needs. My responsibilities encompassed troubleshooting, repairing, and maintaining a range of IT equipment including computers, printers, and peripherals. I frequently liaised with faculty, conducting on-site visits to address urgent issues and ensure seamless technological operations. This role honed my technical expertise and fortified my collaborative and leadership skills."
+      },
       {
         "company": "UnderControl Software",
         "title": "Lead Android Developer",

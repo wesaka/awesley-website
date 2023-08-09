@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { ReactComponent as BrazilFlag } from '../../assets/brazil.svg'
+import { ReactComponent as SpainFlag } from '../../assets/spain.svg'
 
 class ContactComponent extends Component {
     constructor(props) {
@@ -126,7 +126,7 @@ class ContactComponent extends Component {
                             <p className="address">
                                 {name}<br/>
                                 {city}, {state}, <br/>
-                                {country}<span><BrazilFlag className='flag'/></span><br/>
+                                {country}<span><SpainFlag className='flag'/></span><br/>
                                 {email}<br/>
                                 <span>{phone}</span>
                                 <br/>

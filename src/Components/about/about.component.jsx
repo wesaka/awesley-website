@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { ReactComponent as BrazilFlag } from '../../assets/brazil.svg';
+import { ReactComponent as SpainFlag } from '../../assets/spain.svg';
 import { downloadFile } from "../../download-helper/download-helper";
 
 class AboutComponent extends Component {
@@ -25,7 +25,7 @@ class AboutComponent extends Component {
                                 <h2>Contact Details</h2>
                                 <p className="address">
                                     <span>{name}</span><br/>
-                                    <span>{city}, {state}, {country} <span><BrazilFlag className='flag'/></span>
+                                    <span>{city}, {state}, {country} <span><SpainFlag className='flag'/></span>
                    </span><br/>
                                     <span>{phone}</span><br/>
                                     <span>{phone2}</span><br/>
@@ -33,6 +33,11 @@ class AboutComponent extends Component {
                                 </p>
                             </div>
                             <div className="columns download">
+                                <p>
+                                    <div onClick={() => window.open('https://registry.jsonresume.org/wesaka', '_blank')} className="button">
+                                        <i className="fa fa-external-link-alt"></i>Open Resume
+                                    </div>
+                                </p>
                                 <p>
                                     <div onClick={() => downloadFile(`${process.env.PUBLIC_URL}/${resumedownload}`)} className="button"><i className="fa fa-download"></i>Download
                                         Resume</div>
